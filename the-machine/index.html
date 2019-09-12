@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>The Machine</title>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/countup.js/1.9.3/countUp.min.js'></script>
+    <script src="wallet.js"></script>
+    <script src="app.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Modak&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <svg id="walletSvg" viewBox="0 0 450 150">
+        <text id="wallet" x="35" y="75">$500</text> 
+    </svg>
+    <img id="bar" src="assets/graphics/ui/bar.png">
+    <img id="chart" src="assets/graphics/charts/wins-chart.png">
+    <div id="machine">
+        <img id="wheel1" width="144px" height="144px" src="assets/graphics/symbols/symbol-5.png">
+        <img id="wheel2" width="144px" height="144px" src="assets/graphics/symbols/symbol-5.png">
+        <img id="wheel3" width="144px" height="144px" src="assets/graphics/symbols/symbol-5.png">
+        <button id="spin"></button>
+    </div>
+</body>
+</html>

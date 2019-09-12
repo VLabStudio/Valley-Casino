@@ -1,0 +1,85 @@
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("assets/graphics/backgrounds/background-1.png");
+    min-width: 1600px;
+}
+
+#walletSvg {
+    position: fixed;
+    width: 450px;
+    fill: white;
+    stroke: #816420;
+    stroke-width: 4px;
+    font-size: 80px;
+    font-family: 'Modak', cursive;
+}
+
+#bar {
+    width: 500px;
+    position: fixed;
+    top: 0px;
+    margin-left: -10px;
+    z-index: -1;
+}
+
+#chart {
+    width: 500px;
+    position: fixed;
+    margin-top: 15px;
+    margin-left: -10px;
+    z-index: 2;
+    top: 80px;
+}
+
+#machine {
+    width: 670px;
+    height: 670px;
+    background-image: url("assets/graphics/machines/machine-1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    margin-top: 8%;
+    margin-left: 32%;
+}
+
+#machine img {
+    margin-top: 221px;
+}
+
+#machine #wheel1 {
+    margin-left: 60px;
+}
+
+#machine #wheel2 {
+    margin-left: 55px;
+}
+
+#machine #wheel3 {
+    margin-left: 51px;
+}
+
+#spin {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+    background-image: url("assets/graphics/controls/spin-normal.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 500px;
+    height: 120px;
+    margin-top: 105px;
+    margin-left: 83px;
+}
+
+#spin:hover {
+    background-image: url("assets/graphics/controls/spin-hover.png");
+}
+
+#spin:active {
+    background-image: url("assets/graphics/controls/spin-active.png");
+}
