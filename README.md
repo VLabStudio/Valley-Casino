@@ -6,6 +6,12 @@ A collection of different casino machines and tables
 * HTML
 * CSS
 
+## The story behind
+The first thing I did was to create a nice background in Photoshop and use CSS to set the background, I made the rest of the graphics in Photoshop like buttons, machine skin, the wins chart and symbols. The way I made the graphics was to download existing assets and draw on top of them to get the general shape.
+I went out on the internet to find some nice sounds and the background music from Kenney, And Partners In Rhyme. After getting all of my assets ready. It was just the coding I needed to do.
+In the HTML I used a mix of SVGs and PNGs to display the game UI. And in JavaScript, I needed to create a reference to all of my assets and to define a wallet class to hold the money earned and used.
+I then needed the spin functionality First, I had to check if we have enough money to do a spin, and if we do, disable the spin button and play the rolling sound, and background music, and calculate the result from a fixed list of results. The reason I use the fixed list is, so it's easier to change the difficulty. Then I needed the spin animation where I showed all the different shapes. The last thing I needed was to check if we won, and give the prize.
+
 ## What did I learn?
 I learn to make interactive graphics using HTML JavaScript and CSS.
 And to animate static images
